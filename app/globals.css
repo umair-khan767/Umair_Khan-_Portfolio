@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #232327;
+}
+.dot {
+  height: 50px;
+  width: 50px;
+  padding: 80px;
+  border-radius: 50%;
+  background-color: #f1ff9d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  top: 0;
+}
+
+/* @media only screen and (max-width: 640px) {
+  .hero-area .pattern {
+    top: 0;
+    left: 12%;
+    height: 700px;
+    width: auto;
+    position: absolute;
+  }
+  .hero-area .hero-info-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 200px;
+  }
+} */
